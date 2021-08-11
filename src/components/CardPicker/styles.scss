@@ -1,0 +1,17 @@
+.cardpicker {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  max-width: 500px;
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__card {
+    margin-bottom: 5px;
+  }
+}
